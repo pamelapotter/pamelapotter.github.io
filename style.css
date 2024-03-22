@@ -1,0 +1,46 @@
+/* Estilos CSS para o menu */
+/* Define a cor de fundo para o menu */
+body {
+  background-image: url(eueivc.jpeg);
+}
+
+/* Define a largura máxima para o conteúdo da página */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Define a estilização do menu */
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #291f1f;
+  overflow: hidden;
+}
+
+/* Define a estilização dos itens do menu */
+.menu li {
+  float: left;
+}
+
+/* Define a estilização dos links do menu */
+.menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Define a estilização dos links quando o mouse passa sobre eles */
+.menu li a:hover {
+  background-color: #bf0d0d;
+}
+
+.imagem {
+  max-width: 700px;
+  min-width: 699px;
+  height: auto;
+}
